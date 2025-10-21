@@ -13,7 +13,7 @@ async function sendYTNTokens() {
   const contractAddress = 'TDjgDnXoSuG3RWwNe5qP6hEwRZduaZM7p6';
   
   // CHANGE THESE VALUES:
-  const recipient = 'TKVqXdXBXP5R3kNnkiNViJmuY4Y8nrJRTA'; // Your wallet address (safe test)
+  const recipient = 'THzA986ssbv6frmKejAmwDiLR45To751o1'; // Piiyush's address (real transfer)
   const amount = 1000; // Amount of YTN to send
 
   try {
