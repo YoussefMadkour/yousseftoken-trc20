@@ -1,0 +1,35 @@
+{
+  "name": "yousseftoken-trc20",
+  "version": "1.0.0",
+  "description": "YoussefToken (YTN) - A secure TRC20 token deployed on TRON blockchain",
+  "main": "tron-deploy.js",
+  "scripts": {
+    "deploy": "node tron-deploy.js",
+    "test-transfer": "node send-to-piiyush-addresses.js",
+    "compile": "tronbox compile",
+    "migrate:nile": "tronbox migrate --network nile --reset",
+    "migrate:mainnet": "tronbox migrate --network mainnet --reset"
+  },
+  "keywords": [
+    "trc20",
+    "tron",
+    "blockchain",
+    "smart-contract",
+    "token",
+    "web3",
+    "cryptocurrency"
+  ],
+  "author": "Youssef Madkour",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "tronweb": "^6.0.4"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/yousseftoken-trc20.git"
+  }
+}
